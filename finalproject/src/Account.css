@@ -8,11 +8,28 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Roboto', sans-serif;
 */
 
-/* ~~~~~~~~~~~~~~~~~~Whole app~~~~~~~~~~~~~~~~~~ */
-.App {
-  background-color: white;
-  font-family: 'Poppins', sans-serif;
-  padding: 0;
-  margin: 0;
-  overflow: hidden;
+#accountpage {
+    margin: 0px 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    margin: 100px 0px 20px 0px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+}
+
+#info {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+}
+
+p {
+    text-align: left;
 }

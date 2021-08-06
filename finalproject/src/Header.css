@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Fonts
+font-family: 'Otomanopee One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+header {
+  background-color: white;
+  color: black;
+  font-size: calc(10px + 2vmin);
+  min-height: 5vh;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 10px 30px;
+  box-shadow: 0 3px 20px grey;
+
+  position: fixed;
+  width: 100%;
+}
+
+h1 {
+  font-family: 'Otomanopee One', sans-serif;
+  margin: 0px 60px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s;
+}
+
+.header-section {
+    display: flex;
+    align-items: center;
+}
+
+#uploadbutton {
+    background-color: #41E2BA;
+    font-weight: bold;
+    padding: 10px 25px;
+    margin: 0px 10px;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+#uploadbutton:hover {
+    background-color: #DDDBDE;
+    text-decoration: underline;
+}
+
+#profilepic {
+  width: 75px;
+  margin: 0px 50px;
+}

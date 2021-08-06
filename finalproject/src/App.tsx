@@ -1,26 +1,58 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import ScrollToTop from './ScrollToTop';
+
+//Pages 
+import Header from './Header';
+import Main from './Main';
+import Photos from './Photos';
+import Albums from './Albums';
+import AccountPage from './Account';
+import UploadPage from './UploadImage';
+import Footer from './Footer';
+
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+
+/*Links 
+<Link to="/">Main</Link>
+<Link to="/photos">Photos</Link>
+<Link to="/albums">Albums</Link>
+<Link to="/account">Account</Link>
+<Link to="/upload">Upload</Link>
+*/
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Router>
+        <Header />
+        <ScrollToTop />
+
+        <div>
+          {/*Switch looks through its children Routes and renders the first one that matches the current URL.*/}
+          <Switch>
+            <Route path="/upload" component={UploadPage} />
+            <Route path="/account" component={AccountPage} />
+            <Route path="/albums" component={Albums} />
+            <Route path="/photos" component={Photos} />
+            <Route path="/" component={Main} />
+          </Switch>
+        </div>
+
+        <Footer />
+      </Router>
     </div>
   );
 }
 
 export default App;
+
+/**References:
+ * https://reactrouter.com/web/guides/quick-start
+ * 
+ */
