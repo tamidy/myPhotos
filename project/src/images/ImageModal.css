@@ -1,0 +1,17 @@
+.small {
+    width: auto;
+    height: 30%;
+    max-width: 300px; 
+    max-height: 300px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+.image {
+    width: auto;
+    height: 80%;
+    max-width: 1500px; 
+    max-height: 1500px;
+    object-fit: contain;
+    margin: 10px;
+}

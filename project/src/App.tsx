@@ -54,5 +54,5 @@ export default App;
 
 /**References:
  * https://reactrouter.com/web/guides/quick-start
- * 
+ * https://medium.com/swlh/aws-cdk-and-typescript-deploy-a-static-react-app-to-s3-df74193e9e3d
  */
