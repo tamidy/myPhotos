@@ -1,2 +1,2 @@
-# test-example
-test
+# myPhotos
+Project for DX Training
