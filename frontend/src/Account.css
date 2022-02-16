@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Fonts
+font-family: 'Otomanopee One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+#accountpage {
+    margin-top: 105px;
+    padding: 50px;
+    padding-bottom: 140px;
+    text-align: center;
+}
+
+#topInfo {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    align-items: baseline;
+}
+
+#pic {
+    width: 100px;
+    height: 100px;
+}
+
+#name {
+    font-family: 'Poppins', sans-serif;
+}
+
+#editButton {
+    margin: 0px 20px;
+    padding: 10px 15px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
+table {
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    width: 50%;
+    margin: 10px auto;
+}
+
+td {
+    padding: 15px 10px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid grey !important; 
+    background-color: #F5F5F5;
+    border-radius: 4px;
+    box-sizing: border-box;
+}

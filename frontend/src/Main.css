@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Fonts
+font-family: 'Otomanopee One', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+main {
+    margin: 0px 50px;
+    padding: 50px;
+    padding-bottom: 140px;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    margin: 100px 0px 20px 0px;
+}
+
+#photosdisplay, #albumsdisplay {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#photosdisplay img {
+    width: auto;
+    height: 30%;
+    max-width: 300px; 
+    max-height: 300px;
+    object-fit: contain;
+    margin: 10px;
+}
+
+#albumsdisplay img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin: 10px;
+}
+
+#seeallphotos, #seeallalbums {
+    background-color: #41E2BA;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    width: 100px;
+    padding: 10px;
+    margin: 30px auto;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+#seeallphotos:hover, #seeallalbums:hover {
+    background-color: #DDDBDE;
+    text-decoration: underline;
+}
