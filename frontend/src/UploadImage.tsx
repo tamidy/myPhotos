@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './UploadImage.css';
+import './css/UploadImage.css';
 import axios from 'axios';
 
 const FileUpload = () => {

@@ -1,5 +1,5 @@
 import React, { FormEvent, useState } from "react";
-import classes from "./SignUpPage.module.css";
+import classes from "./css/SignUpPage.module.css";
 import AccountServices from "./services/AccountServices";
 
 const SignUpPage = (props: any) => {

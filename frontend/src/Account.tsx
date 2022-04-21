@@ -1,5 +1,5 @@
 import React from 'react';
-import './Account.css';
+import './css/Account.css';
 import {newName, newEmail, newBio, changed} from './EditProfile';
 import defaultpic from './images/defaultprofilepic.png';
 import { withRouter } from 'react-router-dom';

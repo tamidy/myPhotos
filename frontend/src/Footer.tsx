@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import './Footer.css';
+import './css/Footer.css';
 
 const LogoButton = withRouter(({ history }) => (
   <a href="" onClick={() => { history.push('/') }}><h1 id="footerlogo">myPhotos</h1></a>

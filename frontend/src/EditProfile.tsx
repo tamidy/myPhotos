@@ -1,7 +1,7 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
 import {name, email, bio} from './Account';
-import './Account.css';
+import './css/Account.css';
 import defaultpic from './images/defaultprofilepic.png';
 
 const SaveProfileButton = withRouter(({ history }) => (

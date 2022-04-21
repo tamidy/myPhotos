@@ -1,6 +1,6 @@
 import React from 'react';
 import { withRouter } from 'react-router-dom';
-import './Main.css';
+import './css/Main.css';
 
 import imageOne from './images/sampleimages/one.png';
 import imageTwo from './images/sampleimages/two.jpg';

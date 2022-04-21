@@ -1,6 +1,6 @@
 import React, { FormEvent, useState } from "react";
 import { withRouter } from "react-router-dom";
-import classes from "./LoginPage.module.css";
+import classes from "./css/LoginPage.module.css";
 import AccountServices from "./services/AccountServices";
 
 const LoginPage = (props: any) => {
